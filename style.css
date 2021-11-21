@@ -108,24 +108,18 @@ img.header { width: 100%;}
 .wrapper { 
    position: relative;
    overflow:hidden;
-   
 }
-#imageBlur, .description {
-  object-fit: cover;
-   height: 90vh;
-   position: absolute;
-   width: 100%;
 
-}
-#imageBlur {
-    filter: blur(3px);
-}
 .description {
-  padding: 50vh 50px;
-  top: 1px;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  padding: 55vh 10vw;
+  bottom: 0px;
   background-color:rgba(0, 0, 0, 0.4) ;
   color: white;
 }
+
 p.description_content {font-size: 50px;}
 blockquote{
     border-left:solid 5px #ffd800;
