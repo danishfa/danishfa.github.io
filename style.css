@@ -81,6 +81,17 @@ body {
   letter-spacing: -.05rem;
 }
 
+/* Buat lomba */
+.card-lomba {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card-lomba > div {
+  margin-top: 100px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
