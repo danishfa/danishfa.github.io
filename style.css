@@ -132,6 +132,13 @@ blockquote{
 .navbar {
   background-color: rgb(229, 255, 229);
 }
-.navbar .container-fluid {
-  padding: 0 130px;
+
+@media only screen and (min-width: 993px) {
+  .navbar .container-fluid {
+    padding: 0 130px;
+  }
 }
+
+.navbar .container-fluid {
+    padding: 0 20px;
+  }
