@@ -24,8 +24,8 @@
 
 <body>
     <!-- Awal Navbar -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="fixed-top" id="nav-scroll" style="transition: 0.75s;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand text-dark text-decoration-none" href="index.html"
                     style="font-family: 'Lobster', cursive; font-size: x-large;">
@@ -301,7 +301,20 @@
         </footer>
     </div>
 
-
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+        navbar = document.getElementById("nav-scroll");
+        window.addEventListener("scroll", function () {
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop) {
+                navbar.style.top = "-70px";
+            } else {
+                navbar.style.top = "0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
