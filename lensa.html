@@ -13,6 +13,9 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
@@ -44,8 +47,8 @@
                             <a class="nav-link" href="index.html#about">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
                                 Lensa
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -97,10 +100,10 @@
     <section id="essay" style="padding-top: 100px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="frontend/images/essai.png" class="img-fluid" alt="Responsive image" alt="essay">
+                <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="img/keren.jpg" class="img-fluid" alt="Responsive image" alt="essay">
                 </div>
-                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-md-8" data-aos="fade-left" data-aos-duration="1000">
                     <h4 class="h4 h4-left">
                         Essay
                     </h4>
@@ -286,6 +289,10 @@
             }
             lastScrollTop = scrollTop;
         })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
