@@ -79,13 +79,41 @@ body {
 }
 
 /* Buat lomba */
+
+.lomba {
+  background-color: #bae7cb;
+}
+
+.card-lomba {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card-lomba > div {
+  margin-top: 100px;
+  color: #0390ac;
+  background-color: #bae7cb;
+  border-color: #7bac92;
+  border-width: 3px;
+}
+
+.btn-primary {
+  background-color: #7bac92;
+  border-color: #7bac92;
+}
+
+.btn-primary:hover {
+  background-color: #0390ac;
+  border-color: white;
+}
+
 .esport {
   color: white;
   text-align: center;
-  background-image: url("img/magnoliaflower.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../magnolia-web/img/carousel\ \(1\).jpg");
+  background-position: top;
   background-attachment: fixed;
   padding: 150px;
   width: 100%;
