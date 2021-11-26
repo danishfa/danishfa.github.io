@@ -97,6 +97,13 @@ blockquote{
     font-size: 25px;
 }
 
+.lensa-divider-top {
+  margin-top: 4rem;
+}
+.lensa-divider-bottom {
+  margin-bottom: 4rem;
+}
+
 /* Kategori LENSA */
 #kategori img {
   width: 300px;
@@ -194,6 +201,9 @@ footer h3 {
   #logomain img {
     width: 175px;
     height: 175px;
+  }
+  #spaceimglensa {
+    margin-bottom: 60px;
   }
 }
 
