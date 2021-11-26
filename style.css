@@ -1,49 +1,46 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
 
+/* MAIN */
 body {
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #ffffff;
+  background-color: #12233d;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav.navbar-dark {
+  background-color: #364d70;
+}
+
+#navbarNav ul li a.active {
+  color: #c86e74;
+  font-weight: bolder;
+}
+
+.navbar {
   background-color: rgb(229, 255, 229);
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 7.5px;
+.pinktext {
+  color: #c86e74;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(206, 226, 206);
+.bg-button {
+  background-color: #82cce9;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(107, 146, 107);
-}
-
+/* CUSTOMIZE THE CAROUSEL INDEX/HOME
+-------------------------------------------------- */
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-  padding-top: 62px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -63,34 +60,68 @@ body {
   height: 32rem;
 }
 
-/* Featurettes
-------------------------- */
-
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  /* rtl:remove */
-  letter-spacing: -.05rem;
+#logomain img {
+  box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
+  margin-top: 4rem;
 }
 
-/* Buat lomba */
-.esport {
+@media (min-width: 993px) {
+  #logomain img {
+    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
+  }
+  .aboutspace {
+    padding-top: 4rem;
+  }
+}
+
+/* awal kategori */
+
+/* akhir kategori */
+
+/* awal footer */
+.foto {
+  width: auto;
+  height: 70px;
+}
+
+footer a,
+footer a:hover {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 30px;
   color: white;
-  text-align: center;
-  background-image: url("img/magnoliaflower.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 150px;
-  width: 100%;
 }
 
+footer a:hover {
+  color: #c86e74;
+}
+
+.folus a {
+  padding-right: 10px ;
+}
+
+
+footer h3 {
+    /* untuk footer */
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+
+.copyright p {
+  font-size: 14px;
+}
+
+.footer-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+  border: 2px solid white;
+}
+/* akhir footer */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -102,57 +133,38 @@ body {
     font-size: 1.25rem;
     line-height: 1.4;
   }
+}
 
-  .featurette-heading {
-    font-size: 50px;
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+  footer h3 {
+      margin: 60px 0px 25px;
+  }
+  #logomain {
+    padding: 20px 0 70px 0;
+  }
+  #logomain img {
+    width: 175px;
+    height: 175px;
   }
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 7.5px;
 }
 
-img.header { width: 100%;}
-.wrapper { 
-   position: relative;
-   overflow:hidden;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f3ebef;
 }
 
-.description {
-  height: 100vh;
-  position: absolute;
-  width: 100%;
-  padding: 55vh 10vw;
-  bottom: 0px;
-  background-color:rgba(0, 0, 0, 0.4) ;
-  color: white;
-}
-
-p.description_content {font-size: 50px;}
-blockquote{
-    border-left:solid 5px #ffd800;
-    padding-left:20px;
-    font-size: 25px;
-}
-
-#navbarNav ul li a.active {
-  color: green;
-  font-weight: bolder;
-}
-
-.navbar {
-  background-color: rgb(229, 255, 229);
-}
-
-@media only screen and (min-width: 993px) {
-  .navbar .container-fluid {
-    padding: 0 130px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .navbar .container-fluid {
-    padding: 0 20px;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c86e74;
 }
