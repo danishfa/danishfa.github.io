@@ -69,18 +69,61 @@ nav.navbar-dark {
   margin-top: 4rem;
 }
 
-@media (min-width: 993px) {
-  #logomain img {
-    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
-  }
-  .aboutspace {
-    padding-top: 4rem;
-  }
-}
-
 /* awal kategori */
 
 /* akhir kategori */
+
+/* LENSA HEADER */
+Img.header { width: 100%;}
+.wrapper { 
+   position: relative;
+   overflow:hidden;
+}
+
+.description {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  padding: 55vh 10vw;
+  bottom: 0px;
+  background-color:rgba(0, 0, 0, 0.4) ;
+  color: white;
+}
+
+ p.description_content {font-size: 50px;}
+blockquote{
+    border-left:solid 5px #c86e74;
+    padding-left:20px;
+    font-size: 25px;
+}
+
+/* Kategori LENSA */
+#kategori img {
+  width: 300px;
+}
+
+/* font weight kategori */
+#kategori .h4, .h5 {
+    font-weight: 700;
+}
+
+/* button */
+.btn {
+    /* btn daftar & juknis */
+    height: 40px;
+    background-color: #82cce9;
+    color: #000000;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
 
 /* awal footer */
 .foto {
@@ -151,6 +194,15 @@ footer h3 {
   #logomain img {
     width: 175px;
     height: 175px;
+  }
+}
+
+@media (min-width: 993px) {
+  #logomain img {
+    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
+  }
+  .aboutspace {
+    padding-top: 4rem;
   }
 }
 
