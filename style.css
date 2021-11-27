@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
 
 /* MAIN */
 body {
@@ -167,8 +168,7 @@ blockquote{
   height: 70px;
 }
 
-footer a,
-footer a:hover {
+footer a {
   font-size: 18px;
   text-decoration: none;
   display: inline-block;
@@ -181,7 +181,8 @@ footer a:hover {
 }
 
 .folus a {
-  padding-right: 10px ;
+  padding-right: 15px ;
+  font-size: 30px;
 }
 
 
@@ -197,7 +198,7 @@ footer h3 {
 }
 
 .footer-divider {
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0 2rem 0; /* Space out the Bootstrap <hr> more */
   border: 2px solid white;
 }
 /* akhir footer */
