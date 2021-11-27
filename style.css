@@ -272,4 +272,5 @@ footer h3 {
   width: 100%;
   position: fixed;
   z-index: 99999999999999;
+  background-blend-mode: luminosity;
 }
