@@ -237,7 +237,7 @@ footer h3 {
     margin-bottom: 60px;
   }
   #preloader {
-     background-size: 35%;
+     display: none;
   }
 }
 
