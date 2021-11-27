@@ -98,7 +98,7 @@ nav.navbar-dark {
 }
 
 /* awal kategori */
-#kategori .ext:hover {
+#kategorimain .ext:hover {
   transform: scale(1.1);
 }
 /* akhir kategori */
@@ -146,8 +146,6 @@ blockquote{
 
 /* button */
 .btn {
-    /* btn daftar & juknis */
-    height: 40px;
     background-color: #9dafba;
     color: #000000;
     border-radius: 5px;
@@ -155,7 +153,10 @@ blockquote{
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    margin-right: 15px;
+}
+
+#kategori .btn {
+  margin-right: 15px;
 }
 
 .btn:hover {
