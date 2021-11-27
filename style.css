@@ -22,16 +22,42 @@ nav.navbar-dark {
   font-weight: bolder;
 }
 
-.navbar {
-  background-color: rgb(229, 255, 229);
-}
-
 .pinktext {
   color: #c86e74;
 }
 
 .bg-button {
-  background-color: #82cce9;
+  background-color: #9dafba;
+}
+
+.act-btn {
+    /* btn back to top */
+    background: #c86e74;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #12233d;
+    font-size: 30px;
+    -webkit-border-radius: 50%;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 99999;
+}
+
+.act-btn:hover {
+    cursor: pointer;
+    color: #12233d;
+}
+
+.act-btn.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* CUSTOMIZE THE CAROUSEL INDEX/HOME
@@ -121,7 +147,7 @@ blockquote{
 .btn {
     /* btn daftar & juknis */
     height: 40px;
-    background-color: #82cce9;
+    background-color: #9dafba;
     color: #000000;
     border-radius: 5px;
     margin-top: 40px;
@@ -221,12 +247,12 @@ footer h3 {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 7.5px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f3ebef;
+  background: #9dafba;
 }
 
 /* Handle */
