@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
 
@@ -7,7 +7,7 @@ body {
   padding-bottom: 3rem;
   color: #ffffff;
   background-color: #12233d;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 html {
@@ -18,13 +18,31 @@ nav.navbar-dark {
   background-color: #364d70;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu {
+    background-color: #ffc0d3;
+}
+
+.dropdown-menu a:hover {
+    color: #f768b8;
+}
+
+ .dropdown-menu a.active {
+   background-color: #fff;
+ }
+
 #navbarNav ul li a.active {
-  color: #c86e74;
+  color: #f768b8;
   font-weight: bolder;
 }
 
 .pinktext {
-  color: #c86e74;
+  color: #f768b8;
 }
 
 .bg-button {
@@ -33,14 +51,14 @@ nav.navbar-dark {
 
 .act-btn {
     /* btn back to top */
-    background: #c86e74;
+    background: #f768b8;
     display: inline-block;
     width: 50px;
     height: 50px;
     text-align: center;
     color: #12233d;
-    font-size: 30px;
-    -webkit-border-radius: 50%;
+    font-size: 35px;
+    border-radius: 50%;
     transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
@@ -92,8 +110,7 @@ nav.navbar-dark {
   margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-#logomain img {
-  box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
+#logomain img, #logomainlensa img {
   margin-top: 4rem;
 }
 
@@ -122,7 +139,7 @@ Img.header { width: 100%;}
 
  p.description_content {font-size: 50px;}
 blockquote{
-    border-left:solid 5px #c86e74;
+    border-left:solid 5px #f768b8;
     padding-left:20px;
     font-size: 25px;
 }
@@ -145,8 +162,8 @@ blockquote{
 }
 
 /* button */
-.btn {
-    background-color: #9dafba;
+.btn, .btn:hover {
+    background-color: #82cce9;
     color: #000000;
     border-radius: 5px;
     margin-top: 40px;
@@ -164,9 +181,22 @@ blockquote{
 }
 
 /* awal footer */
-.foto {
+.foto2 {
   width: auto;
   height: 70px;
+}
+.foto1 {
+  width: auto;
+  height: 85px;
+}
+.foto3 {
+  width: auto;
+  height: 75px;
+}
+.foto4 {
+  width: auto;
+  height: 70px;
+  margin-left: 10px;
 }
 
 footer a {
@@ -178,7 +208,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #c86e74;
+  color: #f768b8;
 }
 
 .folus a {
@@ -226,12 +256,22 @@ footer h3 {
   footer h3 {
       margin: 60px 0px 25px;
   }
-  #logomain {
-    padding: 20px 0 70px 0;
+  #kategori img {
+    width: 225px;
   }
   #logomain img {
-    width: 175px;
-    height: 175px;
+    width: 250px;
+    height: 250px;
+  }
+  #logomain {
+    padding: 0 0 30px 0;
+  }
+  #logomainlensa img {
+    width: 180px;
+    height: 180px;
+  }
+  #logomainlensa {
+    padding: 20px 0 70px 0;
   }
   #spaceimglensa {
     margin-bottom: 60px;
@@ -239,12 +279,12 @@ footer h3 {
   #preloader {
      display: none;
   }
+  #kategorimain .ext:hover {
+    transform: scale(1);
+  }
 }
 
 @media (min-width: 993px) {
-  #logomain img {
-    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.6), 0 0px 30px 0 #c86e74;
-  }
   .aboutspace {
     padding-top: 4rem;
   }
@@ -262,7 +302,7 @@ footer h3 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c86e74;
+  background: #f768b8;
 }
 
 #preloader {
