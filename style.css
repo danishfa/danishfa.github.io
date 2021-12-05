@@ -105,27 +105,13 @@ nav.navbar-dark {
   height: 32rem;
 }
 
-#about {
-  margin-top: 1rem;
-}
-
 .featurette-divider {
-  margin: 1.5rem 0 4.5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-#logomain img{
-  margin-top: 1rem;
+#logomain img, #logomainlensa img {
+  margin-top: 4rem;
 }
-
-#logomainlensa img {
-  margin-top: 2.75rem;
-}
-
-@media (min-width: 992px) {
-    div.aboutspace {
-        padding-top: 3rem;
-    }
-} 
 
 /* awal kategori */
 #kategorimain .ext:hover {
@@ -297,6 +283,12 @@ footer h3 {
   }
 }
 
+@media (min-width: 993px) {
+  .aboutspace {
+    padding-top: 4rem;
+  }
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -320,45 +312,3 @@ footer h3 {
   position: fixed;
   z-index: 99999999999999;
 }
-
-/* awal countdown */
-#hitungmundur .countdown {
-    text-align: center;
-    font-size: 64px;
-    font-weight: bold;
-    color: #000000;
-}
-
-#hitungmundur .countdown li {
-    background-color: #82cce9;
-    display: inline-block;
-    font-size: 15px;
-    list-style-type: none;
-}
-
-#hitungmundur h4 {
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 18px;
-}
-
-#hitungmundur .rounded {
-    width: 60px;
-}
-
-#hitungmundur span {
-    font-size: 26px;
-}
-
-#days,
-#hours,
-#minutes,
-#seconds {
-    display: block;
-    font-size: 36px;
-    margin: 15px;
-    margin-bottom: 0px;
-}
-
-
-/* akhir countdown */
