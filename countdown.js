@@ -1,6 +1,6 @@
 function countdown() {
     var now = new Date();
-    var eventDate = new Date("Feb 10, 2022 00:00:00");
+    var eventDate = new Date("Feb 05, 2022 00:00:00");
 
     var currentTiime = now.getTime();
     var eventTime = eventDate.getTime();
