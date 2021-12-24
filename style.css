@@ -196,20 +196,21 @@ blockquote{
 /* awal footer */
 .foto2 {
   width: auto;
-  height: 65px;
-}
-.foto1 {
-  width: auto;
-  height: 70px;
-}
-.foto3 {
-  width: auto;
-  height: 70px;
+  height: 60px;
 }
 .foto4 {
   width: auto;
-  height: 65px;
-  margin-left: 10px;
+  height: 60px;
+}
+.foto3 {
+  width: auto;
+  height: 75px;
+  padding-bottom: 10px;
+}
+.foto1 {
+  width: auto;
+  height: 75px;
+  padding-bottom: 10px;
 }
 
 footer a {
